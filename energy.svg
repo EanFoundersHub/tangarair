@@ -1,21 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#32126F"/><stop offset="0.55" stop-color="#0057B8"/><stop offset="1" stop-color="#C8F244"/></linearGradient>
-    <radialGradient id="r" cx=".25" cy=".2" r=".7"><stop stop-color="#C8F244" stop-opacity=".9"/><stop offset=".6" stop-color="#00A9CE" stop-opacity=".2"/><stop offset="1" stop-color="#32126F" stop-opacity="0"/></radialGradient>
-  </defs>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#250C5A"/><stop offset=".5" stop-color="#0057B8"/><stop offset="1" stop-color="#FFCE32"/></linearGradient></defs>
   <rect width="1200" height="900" fill="url(#g)"/>
-  <circle cx="250" cy="140" r="340" fill="url(#r)"/>
-  <g stroke="rgba(255,255,255,.5)" stroke-width="3" fill="none">
-    <path d="M0 650 C220 560 420 760 620 650 S970 530 1200 650"/>
-    <path d="M0 720 C220 630 420 830 620 720 S970 600 1200 720" opacity=".6"/>
-    <path d="M0 790 C220 700 420 900 620 790 S970 670 1200 790" opacity=".35"/>
+  <circle cx="950" cy="140" r="220" fill="#FFCE32" opacity=".7"/>
+  <g transform="translate(160 250)" fill="rgba(255,255,255,.9)">
+    <path d="M230 0h420l-85 430H60z" opacity=".96"/>
+    <g stroke="#0057B8" stroke-width="10"><path d="M165 80h420M135 170h430M105 260h420M85 350h410M260 15l-55 410M430 15l-55 410"/></g>
+    <rect x="292" y="430" width="60" height="145" rx="8"/><rect x="205" y="555" width="235" height="38" rx="19"/>
   </g>
-  <g fill="rgba(255,255,255,.9)">
-    <path d="M612 500c-72-92-26-215 96-270 98 92 70 217-96 270z"/>
-    <path d="M600 500c-110-32-156-146-92-250 132 14 190 120 92 250z" opacity=".8"/>
-    <rect x="585" y="465" width="34" height="230" rx="17"/>
-  </g>
-  <g fill="#C8F244">
-    <circle cx="780" cy="248" r="14"/><circle cx="845" cy="310" r="10"/><circle cx="720" cy="340" r="8"/>
-  </g>
+  <path d="M844 376l-72 132h95l-61 159 176-225h-107l76-132z" fill="#C8F244"/>
+  <g stroke="rgba(255,255,255,.28)" stroke-width="4" fill="none"><path d="M0 760h1200"/><path d="M0 800h1200"/></g>
 </svg>
